@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Test / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter (si usas después)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Results & experiments
+# =========================
+# Mantener estructura, no datos pesados
+results/plots/*
+results/runs/*
+results/tables/*
+
+!results/plots/.gitkeep
+!results/runs/.gitkeep
+!results/tables/.gitkeep
+
+# Logs temporales
+*.log
+*.tmp
+
+# =========================
+# OS / Editor
+# =========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# =========================
+# Data (datasets grandes)
+# =========================
+data/**/*.csv
+data/**/*.txt
+data/**/*.dat
+
+# Permitir README explicativos
+!data/**/README.md
+
